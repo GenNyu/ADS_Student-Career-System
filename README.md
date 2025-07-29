@@ -14,20 +14,20 @@ Dữ liệu điểm chuẩn trong dự án được thu thập từ nhiều ngu�
   - **Điểm chuẩn**
   - **Ghi chú** (nếu có)
 
-- Ngoài ra nhóm cũng **crawl riêng thêm** danh sách ngành theo nhóm ngành:
+- Ngoài ra còn **crawl riêng thêm** danh sách ngành theo nhóm ngành:
   - Link: [https://diemthi.tuyensinh247.com/nganh-dao-tao.html](https://diemthi.tuyensinh247.com/nganh-dao-tao.html)
   - Crawl **Nhóm ngành → Ngành → Trường → Mã ngành + tổ hợp + điểm chuẩn**.
 
 ### 2️⃣ Điểm chuẩn đại học các năm trước (2018–2023)
 
-- Nhóm có sử dụng thêm file từ project cũ của một người bạn từng làm cùng project đó:  
+- Project có sử dụng thêm file từ project cũ của một người bạn từng làm cùng project đó:  
   [https://github.com/daniele15/DV-Final-Crawler](https://github.com/daniele15/DV-Final-Crawler)  
   → đã có sẵn file `diemchuan_full.xlsx` cho các năm 2018–2023.
 
 ### 3️⃣ Dữ liệu điểm thi tốt nghiệp THPT (để huấn luyện mô hình gợi ý ngành học)
 
 - Trang web: [https://vietnamnet.vn/giao-duc/diem-thi/tra-cuu-diem-thi-tot-nghiep-thpt/](https://vietnamnet.vn/giao-duc/diem-thi/tra-cuu-diem-thi-tot-nghiep-thpt/)
-- Nhóm đã crawl từng thí sinh theo link:  
+- Project đã crawl từng thí sinh theo link:  
   `"https://vietnamnet.vn/giao-duc/diem-thi/tra-cuu-diem-thi-tot-nghiep-thpt/{}/{}.html".format(year, idx_str)`
 - Dữ liệu thu thập gồm:
   - Số báo danh
@@ -116,7 +116,7 @@ Khi bạn clone project này về lần đầu:
 - Nếu bạn chỉ muốn **xem Dashboard** → KHÔNG cần tải file `dan_nhan_2021.csv`, có thể chạy Dashboard bình thường.
 - Nếu bạn muốn **chạy lại quá trình huấn luyện model (folder Source/Model hoặc các notebook)** → hãy làm theo hướng dẫn phía trên để tải và đặt file `dan_nhan_2021.csv` vào đúng vị trí.
 
-👉 Lưu ý: nhóm đã thêm `.gitignore` để tránh lỡ commit file lớn này vào repo về sau.
+👉 Lưu ý: Đã thêm `.gitignore` để tránh lỡ commit file lớn này vào repo về sau.
 
 ## **Hướng dẫn chạy Dashboard**
 
