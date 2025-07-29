@@ -135,7 +135,7 @@ Khi bạn clone project này về lần đầu:
 - Đầu tiên, clone project về từ GitHub:
 
 ```bash
-git clone https://github.com/HTNam1710/ADS_Final
+[git clone https://github.com/HTNam1710/ADS_Final](https://github.com/GenNyu/ADS_Student-Career-System.git)
 ```
 
 - Mở project bằng IDE bất kỳ (ở đây nhóm sử dụng VSCode).
